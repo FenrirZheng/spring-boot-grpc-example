@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: slots
+  grpc:
+    server:
+      enabled: true
+#      啟動在web servlet上...不要...使用netty server
+      servlet:
+        enabled: false
+#      host: "0.0.0.0"
+#      port: 9090
+#      address: "0.0.0.0:9090"
